@@ -10,6 +10,9 @@ public class DirectoryIterator {
 		 * The following is an example of how to list all of the files in a directory.
 		 * Once the program is running, the directory is chosen using the JFileChooser.
 		 */
+		
+		System.out.println("Directory Iterator");
+		
 		JFileChooser jfc = new JFileChooser();
 		jfc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
 		int returnVal = jfc.showOpenDialog(null);
@@ -31,3 +34,4 @@ public class DirectoryIterator {
 		 */
 	}
 }
+//Copyright © 2020 Adrian Olguin
